@@ -47,7 +47,7 @@ The same listing can appear in several rows (it was retrieved under different ma
 
 | Column | Type | Description |
 |---|---|---|
-| source | text | Search term (Portuguese common name) = name of the spreadsheet. Seven of the 71 spreadsheets contain no listings after filtering |
+| source | text | Brazilian Portuguese vernacular label derived from the spreadsheet filename after automated renaming. This label was assigned after collection and does not necessarily correspond to the original marketplace search query. |
 | ID | text | Mercado Livre listing ID (e.g. `MLB3586486453`) |
 | TITLE | text | Listing title as published by the seller |
 | PERMALINK | text | Public URL of the listing |
