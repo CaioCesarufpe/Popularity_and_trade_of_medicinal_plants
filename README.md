@@ -76,9 +76,9 @@ needed** to reproduce the analyses, because the collected data are provided in `
 Steps 3, 5 (Google Trends and ANVISA panels) and 6 can be run directly from the data provided. Steps 4c-4e start from
 `ml_recategorized_en.csv`, because the script of the first recategorization pass was not preserved.
 
-**Software.** R 4.5.2 (R Core Team 2025); the packages are listed in [docs/SOFTWARE.md](docs/SOFTWARE.md). Python 3 on Google Colab for step 4a
-(`requirements_collection.txt`). Packages `gtrendsAPI` (Correia 2024) and `gkgraphR` (Correia 2020) are needed for steps 1-2.
-The Mercado Livre scraper (Brito 2026, `Igor-Britoo/Mercado-Livre-Plants-Scraper`) is a third-party project with its own license and is not redistributed here.
+**Software.** R 4.5.2 (R Core Team 2025); the packages are listed in [docs/SOFTWARE.md](docs/SOFTWARE.md). Python 3 on Google Colab was used for step 4a (`requirements_collection.txt`). Packages `gtrendsAPI` (Correia 2024) and `gkgraphR` (Correia 2020) are required for steps 1–2.
+
+**Third-party software.** Mercado Livre listings were collected with the scraper [Mercado-Livre-Plants-Scraper](https://github.com/Igor-Britoo/Mercado-Livre-Plants-Scraper) by Igor Brito (MIT License). The scraper was cloned and adapted for this study in 2024, with customised search terms and categories. Its source code is not redistributed in this repository; script `scripts/04a_collect_mercado_livre_colab.py` documents how it was run. Please cite the original software as Brito I. (2024).
 
 **API key.** Steps 1-2 need a Google API key. Copy `.Renviron.example` to your user-level `~/.Renviron`, fill in `GOOGLE_API_KEY`
 and restart R. The key is never stored in the code.
