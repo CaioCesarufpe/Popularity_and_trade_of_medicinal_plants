@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite them using the metadata below."
+title: "Data and code for: Exploring the popularity and trade of medicinal plants on the Brazilian internet"
+type: software
+authors:
+  - family-names: "Silva"
+    name-particle: "da"
+    given-names: "Caio César Arruda Soares"
+    email: "caio.soaressilva@ufpe.br"
+    affiliation: "Universidade Federal de Pernambuco, Recife, Brazil"
+    orcid: "https://orcid.org/0009-0002-3649-1094"
+  - family-names: "Brito Junior"
+    given-names: "Valdir Moura"
+    affiliation: "Universidade Federal de Pernambuco and Universidade Federal Rural de Pernambuco, Recife, Brazil"
+    orcid: "https://orcid.org/0009-0004-1530-4493"
+  - family-names: "Albuquerque"
+    name-particle: "de"
+    given-names: "Ulysses Paulino"
+    affiliation: "Universidade Federal de Pernambuco and Universidade Federal Rural de Pernambuco, Recife, Brazil"
+    orcid: "https://orcid.org/0000-0002-8131-8429"
+license: MIT
+keywords:
+  - culturomics
+  - Google Trends
+  - interrupted time series
+  - medicinal plants
+  - RENISUS
+  - e-commerce
+abstract: "Code and data to reproduce an exploratory analysis of the online popularity (Google Trends), e-commerce presence (Mercado Livre) and pharmaceutical registry (ANVISA) of the 71 species of the Brazilian national list of medicinal plants of interest to the public health system (RENISUS). Data licensing is described in LICENSE-data.md."

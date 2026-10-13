@@ -1,0 +1,3 @@
+# Copy this file to ~/.Renviron (user level, NOT inside the repository) and fill in your key.
+# Restart R afterwards. Never commit the real key.
+GOOGLE_API_KEY=your_google_api_key_here

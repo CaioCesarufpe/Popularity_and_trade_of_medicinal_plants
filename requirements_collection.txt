@@ -1,0 +1,7 @@
+# Python packages used by scripts/04a_collect_mercado_livre_colab.py (versions from the original run)
+requests==2.32.3
+selenium==4.14.0
+webdriver-manager==4.0.1
+virtualenv
+pandas
+openpyxl

@@ -1,0 +1,28 @@
+# --- Secrets and local settings (never commit) ---
+.Renviron
+.env
+*.key
+
+# --- R ---
+.Rhistory
+.Rapp.history
+.RData
+.RDataTmp
+.Ruserdata
+.Rproj.user/
+*.Rproj
+.httr-oauth
+*_cache/
+/cache/
+rsconnect/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+venv/
+.ipynb_checkpoints/
+
+# --- System ---
+.DS_Store
+Thumbs.db
+~$*
